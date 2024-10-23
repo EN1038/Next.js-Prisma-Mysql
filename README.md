@@ -14,6 +14,7 @@ use command " npx prisma init "
 After running the npx prisma init command, there will be a schema.prisma file. It is created in the prisma folder in your project. Edit this file to set up a connection to MySQL
 
 prisma
+
     datasource db {
       provider = "mysql"
       url      = env("DATABASE_URL")
